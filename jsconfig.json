@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@atomic": ["./src/components/atomic"],
+      "@utils": ["./src/utils"],
+      "@/*": ["./src/*"]
+    }
+  }
+}
