@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fullpokeapi/static/css/main.0bf9cada.css",
+    "main.js": "/fullpokeapi/static/js/main.d895ca0e.js",
+    "static/media/BarcadeBrawl.ttf": "/fullpokeapi/static/media/BarcadeBrawl.73895ecd83170778cce0.ttf",
+    "static/media/pokedex.png": "/fullpokeapi/static/media/pokedex.2800773d39069d735ecd.png",
+    "static/media/bg.png": "/fullpokeapi/static/media/bg.d34ff86cb412ba3099d1.png",
+    "index.html": "/fullpokeapi/index.html",
+    "main.0bf9cada.css.map": "/fullpokeapi/static/css/main.0bf9cada.css.map",
+    "main.d895ca0e.js.map": "/fullpokeapi/static/js/main.d895ca0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bf9cada.css",
+    "static/js/main.d895ca0e.js"
+  ]
+}
