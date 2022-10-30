@@ -1,15 +1,14 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { PokemonInfoPage, SearchPage, Test } from "@atomic";
 
 function App() {
   return (
-    <BrowserRouter basename={'/fullpokeapi'}>
+    <HashRouter basename={'/fullpokeapi'}>
         <Routes>
           <Route path="/" element={<SearchPage />}></Route>
           <Route path="pokemon" element={<PokemonInfoPage />}></Route>
-          <Route path="test" element={<Test />}></Route>
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
