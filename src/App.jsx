@@ -3,7 +3,7 @@ import { PokemonInfoPage, SearchPage, Test } from "@atomic";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={'/fullpokeapi'}>
         <Routes>
           <Route path="/" element={<SearchPage />}></Route>
           <Route path="pokemon" element={<PokemonInfoPage />}></Route>
